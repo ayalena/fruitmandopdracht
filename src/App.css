@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+
+}
+
+.fruit {
+    margin:5px;
+}
+
+.subtract-button {
+    margin:5px;
+}
+
+.add-button {
+    margin:5px;
+}
+
+input[type=text] {
+
+}
+
+#reset-button {
+    margin:15px;
+}
+
+textarea {
+    display: block;
+}
+
+
+
+footer, label {
+    margin:5px;
+}
+
+footer, input {
+    margin:5px;
+}
+
+footer, button {
+    margin:5px;
+}
+
+footer, textarea {
+    margin:5px;
+}
+
+#delivery {
+    display:flex;
+    flex-direction: column;
+}
+
+#delivery, [delivery-frequency] {
+    width: max-content;
+}

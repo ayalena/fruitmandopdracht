@@ -79,7 +79,6 @@ function App() {
                 <div className="form-container">
                     <h2>Gegevens</h2>
                     <form onSubmit={handleSubmit}>
-
                         <fieldset>
 
                             <div>
@@ -132,7 +131,7 @@ function App() {
                                 {postalCode.length > 7 && <p className="error-message">Geef een geldige postcode op</p>}
                             </div>
 
-                            <div>
+                            <div id="delivery">
                                 <label htmlFor="delivery-frequency"> Bezorgfrequentie </label>
                                 <select
                                     name="delivery-frequency"
@@ -152,15 +151,14 @@ function App() {
                             >
                                 <input
                                     type="radio"
-                                    // id="daytime"
+                                    id="daytime"
                                     name="delivery-moment"
                                     value="daytime"
                                 />
                                 <label htmlFor="daytime"> Overdag </label>
-
                                 <input
                                     type="radio"
-                                    // id="nighttime"
+                                    id="nighttime"
                                     name="delivery-moment"
                                     value="nighttime"
                                 />
@@ -201,7 +199,6 @@ function App() {
                             </div>
 
                         </fieldset>
-
                     </form>
                 </div>
             </footer>

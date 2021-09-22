@@ -8,17 +8,17 @@ footer {
 
 }
 
-/*.fruit {*/
-/*    margin:5px;*/
-/*}*/
+.fruit {
+    margin:5px;
+}
 
-/*.subtract-button {*/
-/*    margin:5px;*/
-/*}*/
+.subtract-button {
+    margin:5px;
+}
 
-/*.add-button {*/
-/*    margin:5px;*/
-/*}*/
+.add-button {
+    margin:5px;
+}
 
 input[type=text] {
 
@@ -48,4 +48,13 @@ footer, button {
 
 footer, textarea {
     margin:5px;
+}
+
+#delivery {
+    display:flex;
+    flex-direction: column;
+}
+
+#delivery, [delivery-frequency] {
+    width: max-content;
 }
